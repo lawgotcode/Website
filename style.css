@@ -17,13 +17,37 @@ body {
 header {
 	width: inherit;
 	height: 695px;
+	background-image: url('img2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 
+
+
+}
+
+.overlay {
+	position: absolute;
+	z-index: 1;
+	width: inherit;
+	height: inherit;
 }
 
 nav {
 	width: 100%;
+	
+}
+
+nav ul {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	min-height: 50px;
+	width: inherit;
+}
+
+
+.header-background-image {
+   background: #d08d14a6;
+
 }
